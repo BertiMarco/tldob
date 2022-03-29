@@ -1,10 +1,46 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
 }
 
 .background {
-    height: 100%;
-    background-color: #0f8;
+  height: 100%;
+  background-color: #000;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  height: 90vh;
+}
+
+@media (max-aspect-ratio: 1) {
+  .image {
+    width: 100%;
+    height: unset;
+  }
+}
+
+.button-row {
+  height: 10vh;
+  max-width: 600px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 30;
+}
+
+.icon {
+  margin-right: 1em;
+  fill: #fff;
+}
+
+.icon:hover {
+  fill: #bb060f;
 }
