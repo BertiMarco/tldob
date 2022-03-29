@@ -25,6 +25,13 @@ body {
   }
 }
 
+@media screen and (orientation: portrait) {
+  .image {
+    width: 100%;
+    height: unset;
+  }
+}
+
 .button-row {
   height: 10vh;
   max-width: 600px;
