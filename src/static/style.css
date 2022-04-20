@@ -106,7 +106,7 @@ body {
 }
 
 .icon:hover {
-  fill: #f55;
+  fill: rgb(221, 17, 17);
 }
 
 @keyframes opacityfadein {
